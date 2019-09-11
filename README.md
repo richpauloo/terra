@@ -40,6 +40,12 @@ With Homebrew you can do:
 brew install gdal
 ```
 
+If you don't have one, you might also need to install a pkg-config. 
+
+```
+brew install pkg-config
+```
+
 And now, in R, install the packages.
 ```
 library(devtools)
@@ -47,6 +53,7 @@ install.packages("raster")
 #devtools::install_github("rspatial/raster")
 devtools::install_github("rspatial/terra")
 ```
+
 
 ### Linux
 
